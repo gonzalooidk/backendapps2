@@ -1,6 +1,7 @@
 {
   "name": "my-app",
   "version": "1.0.0",
+  "main": "index.js",
   "engines": {
     "node": "16.13.2",
     "npm": "8.5.1"
@@ -11,7 +12,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "heroku-postbuild": "npm run build"
+    "heroku-postbuild": "npm run build",
+    "server": "node server.js"
   },
   "dependencies": {
     "cookies-next": "^2.1.1",
