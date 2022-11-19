@@ -80,11 +80,11 @@ function Partido(props) {
                         <div style={{display: 'flex', flexDirection: 'row', marginTop: 10}}>
                             <div style={{flexDirection: 'column', display: 'flex'}}>
                                 <span style={{fontSize: 12}}>Equipo local</span>
-                                <input style={{padding: 5}} value={matchDB.localTeamNameValue}  placeholder="Equipo local" disabled readonly></input>
+                                <input style={{padding: 5}} value={matchDB.localTeamNameValue}  placeholder="Equipo local" disabled readOnly></input>
                             </div>
                             <div style={{flexDirection: 'column', display: 'flex'}}>
                                 <span style={{fontSize: 12}}>Equipo visitante</span>
-                                <input style={{padding: 5}} value={matchDB.awayTeamNameValue} placeholder="Equipo visitante" disabled readonly></input>
+                                <input style={{padding: 5}} value={matchDB.awayTeamNameValue} placeholder="Equipo visitante" disabled readOnly></input>
                             </div>
                         </div>
 
@@ -102,18 +102,18 @@ function Partido(props) {
                         <div style={{display: 'flex', flexDirection: 'row', marginTop: 10}}>
                             <div style={{flexDirection: 'column', display: 'flex'}}>
                                 <span style={{fontSize: 12}}>Fecha</span>
-                                <input style={{padding: 5}} value={matchDB.valueDay} placeholder="Fecha" disabled readonly></input>
+                                <input style={{padding: 5}} value={matchDB.valueDay} placeholder="Fecha" disabled readOnly></input>
                             </div>
                             <div style={{flexDirection: 'column', display: 'flex'}}>
                                 <span style={{fontSize: 12}}>Hora</span>
-                                <input style={{padding: 5}} value={matchDB.valueHour} placeholder="Hora" disabled readonly></input>
+                                <input style={{padding: 5}} value={matchDB.valueHour} placeholder="Hora" disabled readOnly></input>
                             </div>
                         </div>
 
                         <div style={{display: 'flex', flexDirection: 'row', marginTop: 10}}>
                             <div style={{flexDirection: 'column', display: 'flex', flex: 1, maxWidth: 330}}>
                                 <span style={{fontSize: 12}}>Liga</span>
-                                <input style={{padding: 5}} value={matchDB.valueLigue} placeholder="Liga" disabled readonly></input>
+                                <input style={{padding: 5}} value={matchDB.valueLigue} placeholder="Liga" disabled readOnly></input>
                             </div>
                         </div>
 
