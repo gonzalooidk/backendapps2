@@ -12,7 +12,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "heroku-postbuild": "npm run build",
+    "heroku-postbuild": "npm run dev",
     "server": "node server.js"
   },
   "dependencies": {
