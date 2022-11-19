@@ -9,9 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "cookies-next": "^2.1.1",
+    "expo-server-sdk": "^3.6.0",
+    "firebase": "^9.6.7",
     "next": "12.2.5",
+    "puppeteer": "^16.2.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-router-dom": "^6.3.0"
   },
   "devDependencies": {
     "eslint": "8.22.0",
